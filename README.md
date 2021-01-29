@@ -9,9 +9,9 @@ sentimental analysis of news headlines(of that particular day).
 
 * Extract Sentiment Scores from given newspaper headlines data, with the help of nltk's SentimentIntensityAnalyzer
 
-* For this problem statement, I took inspiration from this paper: https://www.researchgate.net/publication/306925671_Deep_learning_for_stock_prediction_using_numerical_and_textual_information and decided to carry out Multivariate Time Series Forecasting using Keras' LSTM.
+* For this problem statement, I took inspiration from this awesome [paper](https://www.researchgate.net/publication/306925671_Deep_learning_for_stock_prediction_using_numerical_and_textual_information) and decided to carry out Multivariate Time Series Forecasting using Keras' LSTM.
 
-* I used Long Short-Term Memory (LSTM), to model the temporal effects of past events(both Textual, i.e the sentiment scores and Historical stock data) on opening prices
+* I used LSTM (Long Short-Term Memory), to model the temporal effects of past events(both Textual, i.e the sentiment scores and Historical stock data) on opening prices
 
 * Achieved Training loss: 0.0479 and Validation loss: 0.0254
 
